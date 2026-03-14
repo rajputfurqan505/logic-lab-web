@@ -1,1 +1,1 @@
-# Academic Protofolio:Semster Project
+# Academic Protofolio:Semester Project
