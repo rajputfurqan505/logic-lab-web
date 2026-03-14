@@ -1,0 +1,30 @@
+/* اوپر والا پرانا کوڈ ویسے ہی رہنے دیں جو 'ol' کے لیے لکھا ہے */
+ol {
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+}
+
+/* 1. پہلی لائن سرخ (Red) کرنے کے لیے */
+p {
+    color: red !important;
+}
+
+/* 2. دوسری لائن کو گرے (Grey) کرنے کے لیے */
+.note {
+    color: grey !important;
+}
+
+/* 3. تیسری لائن کو سبز (Green) کرنے کے لیے */
+#id-selector-demo {
+    color: green !important;
+}
+
+/* 4. چوتھی لائن کو نیلا (Blue) کرنے کے لیے */
+li[value="4"] {
+    color: blue !important;
+}
+/* اس کوڈ سے تمام لائنیں بالکل سینٹر ہو جائیں گی */
+* {
+    text-align: center !important;
+}

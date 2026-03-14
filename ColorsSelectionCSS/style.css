@@ -1,0 +1,21 @@
+body {
+    background-color: antiquewhite; /* پیچ جیسا بیک گراؤنڈ */
+    margin: 0;
+    padding: 20px 0;
+}
+
+h1 {
+    color: whitesmoke;             /* لفظ کا رنگ سفید */
+    background-color: darkseagreen; /* پوری سبز پٹی */
+    padding: 15px 40px;            /* پٹی کو اونچا اور چوڑا کرنے کے لیے */
+    margin: 10px 0;                /* پٹیوں کے درمیان فاصلہ */
+    font-family: sans-serif;
+}
+
+h2 {
+    color: #FAF8F1;                /* لفظ کا رنگ سفید نما */
+    background-color: #C58940;     /* پوری براؤن پٹی */
+    padding: 15px 40px;
+    margin: 10px 0;
+    font-family: sans-serif;
+}

@@ -1,0 +1,32 @@
+/* تمام ٹیکسٹ اور مواد کو درمیان میں کرنے کے لیے */
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* رنگوں کے ناموں کا اسٹائل */
+h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-transform: capitalize; /* پہلا حرف خود بخود بڑا ہو جائے گا */
+}
+
+/* تصویروں (دائروں) کا اسٹائل */
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* اسے گول کرنے کے لیے */
+    display: block;
+    margin: 0 auto 30px auto; /* سینٹر کرنے اور نیچے فاصلہ دینے کے لیے */
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ہلکا سا سایہ */
+}
+
+/* ہر رنگ کا مخصوص ٹیکسٹ کلر */
+.blue { color: blue; }
+.green { color: green; }
+.orange { color: orange; }
+.red { color: red; }
+.yellow { color: gold; }
