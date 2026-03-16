@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subscription Activity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background: #fdfdfd; font-family: 'Verdana', sans-serif; margin: 0; padding: 20px; }
+        .page-title { text-align: center; margin-bottom: 30px; color: #2c3e50; }
+
+        /* مین فلیکس ایریا */
+        .card-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        /* باکسز کا ڈیزائن */
+        .plan-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            width: 260px; 
+            padding: 25px 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .plan-card h2 { font-size: 22px; margin-bottom: 5px; color: #333; }
+        .price { font-size: 30px; font-weight: bold; color: #27ae60; margin: 15px 0; }
+
+        .list-items { list-style: none; padding: 0; margin: 20px 0; text-align: left; }
+        .list-items li {
+            padding: 10px 5px;
+            border-bottom: 1px solid #f9f9f9;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        .icon-ok { color: #27ae60; }
+        .icon-no { color: #e74c3c; }
+
+        /* اب تمام بٹنز ہرے رنگ کے ہیں */
+        .btn-buy {
+            display: block;
+            background: #27ae60;
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .btn-buy:hover {
+            background: #219150;
+        }
+
+        /* رسپانسیو سیٹنگ */
+        @media (max-width: 800px) {
+            .card-row { flex-direction: column; align-items: center; }
+            .plan-card { width: 90%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-title">
+        <h1>Select Your Plan</h1>
+    </div>
+
+    <div class="card-row">
+        <div class="plan-card">
+            <h2>Basic</h2>
+            <div class="price">$19/mo</div>
+            <ul class="list-items">
+                <li>10GB Storage <i class="fa-solid fa-check icon-ok"></i></li>
+                <li>1 User <i class="fa-solid fa-check icon-ok"></i></li>
+                <li>Support <i class="fa-solid fa-circle-xmark icon-no"></i></li> 
+            </ul>
+            <a href="#" class="btn-buy">Sign Up</a>
+        </div>
+
+        <div class="plan-card" style="border-top: 5px solid #27ae60;">
+            <h2 style="color: #27ae60;">Standard</h2>
+            <div class="price">$49/mo</div>
+            <ul class="list-items">
+                <li>50GB Storage <i class="fa-solid fa-check icon-ok"></i></li>
+                <li>5 Users <i class="fa-solid fa-check icon-ok"></i></li>
+                <li>Phone & Email Support <i class="fa-solid fa-check icon-ok"></i></li> 
+            </ul>
+            <a href="#" class="btn-buy">Sign Up</a>
+        </div>
+
+        <div class="plan-card">
+            <h2>Premium</h2>
+            <div class="price">$99/mo</div>
+            <ul class="list-items">
+                <li>200GB Storage <i class="fa-solid fa-check icon-ok"></i></li>
+                <li>20 Users <i class="fa-solid fa-check icon-ok"></i></li>
+                <li>Support <i class="fa-solid fa-check icon-ok"></i></li> 
+            </ul>
+            <a href="#" class="btn-buy">Sign Up</a>
+        </div>
+    </div>
+
+</body>
+</html>
