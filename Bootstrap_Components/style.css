@@ -1,0 +1,55 @@
+/* Custom Styles for Friend's Project */
+
+/* Main Title Styling */
+.main-title {
+    color: black; /* Blue color */
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Hero Image Container */
+.hero-img-container {
+    overflow: hidden;
+    max-height: 40vh; /* تھوڑا سا فرق کر دیا ہے */
+    margin-bottom: 20px;
+}
+
+/* Feature Icon Box */
+.feature-icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px; /* Rounded corners */
+    margin-bottom: 1rem;
+}
+
+/* Custom Button */
+.custom-btn {
+    border-radius: 50px; /* Round button */
+    padding: 12px 30px;
+}
+
+/* Dog Image Styling */
+.custom-dog-img {
+    width: 100%;
+    max-width: 550px; /* سائز میں تھوڑا فرق */
+    transition: transform 0.3s ease;
+}
+
+.custom-dog-img:hover {
+    transform: scale(1.02); /* ہلکا سا زوم ایفیکٹ */
+}
+
+/* Section Headings */
+.section-heading {
+    font-weight: 700;
+    color: #333;
+}
+
+/* Navigation Link Hover */
+.nav-link:hover {
+    color: #0d6efd !important;
+    text-decoration: underline;
+}
